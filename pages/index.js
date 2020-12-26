@@ -15,7 +15,7 @@ export default function Home() {
         <title>Nealle Page</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-    <div id="home" className="container w-full bg-gray-200 dark:bg-gray-800 min-w-full">
+    <div id="home" className="container w-full m-0 bg-gray-200 dark:bg-gray-800 min-w-full">
       <section id="navigation">
         <div className="min-w-full">
         <Nav />
