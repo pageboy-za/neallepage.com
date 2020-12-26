@@ -1,3 +1,5 @@
+import ButtonLink from "../components/buttonLink"
+
 const people = () => {
     return (
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -18,7 +20,7 @@ const computer = () => {
 
 const skillsList = [
     { "skill" : "Product",
-    "description" : "I have been working in product for many years and have brought product thinking to several companies that I have worked with including in areas like operations.",
+    "description" : "I have been working in product for many years and have brought product thinking to several companies that I have worked with including in areas like operations, shifting the business from a project driven mindset to a proactive value driven one.",
     "SVG" : people()
     },
     { "skill" : "Payments",
@@ -26,7 +28,7 @@ const skillsList = [
     "SVG" : card()
     },
     {"skill" : "E-commerce",
-    "description" : "My time with Ocado group has tought me about more than the basics of the technology behind e-commerce. I've learned this all in the context of global leading grocers around the world.",
+    "description" : "My time with Ocado group has taught me about more than the basics of the technology behind e-commerce, I've been learning the business of it too. This all in the context of global partnerships witht he worlds leading. ",
     "SVG" : computer()
     }
 ]
@@ -34,21 +36,33 @@ const skillsList = [
 
 export default function skills() {
     return(
-
+        <div>
         <div className="flex flex-col md:flex-row px-2">
             {skillsList.map((skill) => {
                 return (              
-                    <div class="mt-4 w-full bg-white dark:bg-gray-700 shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 lg:mx-4">
-                        <div class="flex justify-center">
+                    <div className="mt-4 w-full bg-white dark:bg-gray-700 shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 lg:mx-4">
+                        <div className="flex justify-center">
                         <svg className="h-24 w-24 text-blue-600 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             {skill.SVG}
                         </svg>
                         </div>
-                        <h4 class="text-xl font-bold leading-tight mt-8 dark:text-gray-900">{skill.skill}</h4>
-                        <p class="text-gray-700 dark:text-gray-200 mt-2">{skill.description} </p>
+                        <h4 className="text-xl font-bold leading-tight mt-8 dark:text-gray-900">{skill.skill}</h4>
+                        <p className="text-gray-700 dark:text-gray-200 mt-2">{skill.description} </p>
                     </div>
                 )
             })}
+        </div>
+        <div className="w-full ">
+        <div className="pl-6 pt-2">
+          <div className="flex justify-center">
+            <h2 className="text-gray-800 text-xl mb-4">Get a copy of my resume</h2>
+          </div>
+          <div className="flex justify-center">
+            <ButtonLink  href="/pdf/2020-06-11_Nealle Page CV.pdf" label="download a copy"/>
+          </div>
+        </div>
+      </div>
+
         </div>
     )
 }

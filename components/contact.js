@@ -58,12 +58,12 @@ export default function contact () {
                 return (
                     <div className="mt-4 h-24 w-full bg-white dark:bg-gray-700 rounded-xl shadow-xl">
                         <div className="mx-auto mt-2 mb-1 h-6 w-6">
-                            <svg class="object-center fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <svg className="object-center fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             {contacts.icon}
                             </svg>
                         </div>
-                        <div class="bg-gradient-to-r from-blue-700 to-blue-400 mb-2 shadow-lg">
-                            <h2 class="font-semibold text-md text-center text-gray-100">{contacts.Text}</h2>
+                        <div className="bg-gradient-to-r from-blue-700 to-blue-400 mb-2 shadow-lg">
+                            <h2 className="font-semibold text-md text-center text-gray-100">{contacts.Text}</h2>
                         </div>
                         <div className="text-center dark:text-gray-200">
                             <a href={contacts.link} >{contacts.contact}</a>
