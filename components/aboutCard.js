@@ -35,7 +35,7 @@ export default function about() {
                         {about.text}
                     </p>
                  </div>
-            <div className="w-full md:w-1/2 px-2 py-2"> 
+            <div className="w-full md:w-1/2 px-4 py-2"> 
                 <Image className="rounded-lg" src={about.image} alt={about.altText} width={1000} height={800} /> 
             </div>
             </div>
