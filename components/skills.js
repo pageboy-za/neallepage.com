@@ -20,15 +20,15 @@ const computer = () => {
 
 const skillsList = [
     { "skill" : "Product",
-    "description" : "I have been working in product for many years and have brought product thinking to several companies that I have worked with including in areas like operations, shifting the business from a project driven mindset to a proactive value driven one.",
+    "description" : "I have been working in product for a while, and have helped bring product thinking to several companies that I have worked with including in areas like operations, shifting the business from a project driven mindset to a proactive value driven one.",
     "SVG" : people()
     },
     { "skill" : "Payments",
-    "description" : "I spent my formative years in banking and payments, becoming an EMV and NFC expert along the way. One of my proudest products in this space was some parts of Mastercard Digital Enablement System (MDES)™ that powers Mastercard © payements inside of Apple Pay and Google Pay",
+    "description" : "I spent my formative years in banking and payments, becoming an EMV and NFC expert along the way. One of my proudest products in this space was some parts of Mastercard Digital Enablement System (MDES)™ that powers Mastercard © payments inside of Apple Pay and Google Pay.",
     "SVG" : card()
     },
     {"skill" : "E-commerce",
-    "description" : "My time with Ocado group has taught me about more than the basics of the technology behind e-commerce, I've been learning the business of it too. This all in the context of global partnerships witht he worlds leading. ",
+    "description" : "MMy time with Ocado group has taught me about more than the basics of the technology behind e-commerce, I've been learning the business of it too. All in the context of global partnerships with the world's leading grocers, like Coles (Australia) and Kroger (USA). ",
     "SVG" : computer()
     }
 ]
@@ -46,7 +46,7 @@ export default function skills() {
                             {skill.SVG}
                         </svg>
                         </div>
-                        <h4 className="text-xl font-bold leading-tight mt-8 dark:text-gray-900">{skill.skill}</h4>
+                        <h4 className="text-xl font-bold leading-tight mt-8 dark:text-gray-400">{skill.skill}</h4>
                         <p className="text-gray-700 dark:text-gray-200 mt-2">{skill.description} </p>
                     </div>
                 )

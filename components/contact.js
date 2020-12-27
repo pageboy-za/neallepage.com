@@ -40,13 +40,13 @@ const contactDetails = [
         "contact" : "LinkedIn",
         "link" : "https://www.linkedin.com/in/neallepage/",
         "Text" : "Connect on LinkedIn",
-        "icon" : linkedIn ()
+        "icon" : linkedIn()
     },
     {
         "contact" : "@pageboy_za",
         "link" : "https://twitter.com/pageboy_za",
         "Text" : "Tweet @ me",
-        "icon" : twit ()
+        "icon" : twit()
     }
 
 ]

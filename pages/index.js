@@ -6,6 +6,7 @@ import About from '../components/aboutCard';
 import Skills from "../components/skills";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import Sectiontitle from "../components/sectionTitle"
 
 
 export default function Home() {
@@ -25,17 +26,25 @@ export default function Home() {
         <Hero />
       </section>
       <Spacer />
-      <div className="pt-8"></div>
+      <div className="pt-8">
+       <Sectiontitle title_text="About"/> 
+      </div>
       <section id="about">
         <div>
         <About />
         </div>        
       </section>
       <Spacer />
+      <div className="pt-8">
+       <Sectiontitle title_text="Skills"/> 
+      </div>
         <section id="skills">
           <Skills />  
         </section>
       <Spacer />
+      <div className="pt-8">
+       <Sectiontitle title_text="Contact"/> 
+      </div>
       <section id="contact">
         <Contact />
       </section>
