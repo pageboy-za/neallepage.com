@@ -8,6 +8,11 @@ import Contact from "../components/contact";
 import Footer from "../components/footer";
 import Sectiontitle from "../components/sectionTitle"
 
+const linkslist = [
+  {label :'About', href: '/#about'},
+  {label :'Skills', href: '/#skills'},
+  {label :'Contact', href: '/#contact'}
+]
 
 export default function Home() {
   return (

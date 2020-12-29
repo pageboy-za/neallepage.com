@@ -1,26 +1,11 @@
 import Link from 'next/link'
+import Menu from './menu'
 
-const links = [
-    {label :'About', href: '#about'},
-    {label :'Skills', href: '#skills'},
-    {label :'Contact', href: '#contact'}
-]
 
 export default function footer()  {
     return (
         <div className="py-10 bg-gradient-to-r from-blue-700 to-blue-400 " id="copyright">
-          <div className="pt-6 ml-4 px-4">
-            <ul className="flex flex-row justify-left font-mono text-gray-700 dark:text-gray-50 space-x-2">
-            {links.map(({ href, label }) => (
-            <li key={`${href}${label}`} className="w-24 hover:bg-gray-200 rounded-lg hover:font-bold hover:text-gray-800 hover:text-lg text-center">
-              <a href={href}>
-                {label}
-              </a>
-            </li>
-          ))}
-            </ul> 
-            </div>
-
+          <Menu className="justify-left" />
           <p className="pl-16 font-semibold text-sm mt-4 mb-6 text-white"> © 2020 Nealle Page</p>
         </div>
     )
