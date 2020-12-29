@@ -7,7 +7,7 @@ const jobs = [
         duration : "October 2018 - To Date",
         job_title : "Solutions Product Manager",
         desc : "A varied product role that was the face of the organisation to the group’s clients representing the vision of the Ocado Smart Platform, helping to steer the product roadmap and ensuring the voice of the client was represented in product development with our delivery teams in Technology.  Until our team grew at the end of 2019, this involved representing the entire platform, from e-commerce, mobile applications, and last mile systems to robotic picking equipment.",
-        logo : "/ocado.svg"
+        logo : "/Ocado.svg"
     },
     {
         companyName : "Ocado Group",
