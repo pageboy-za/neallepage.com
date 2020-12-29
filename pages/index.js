@@ -27,7 +27,7 @@ export default function Home() {
         <Nav />
         </div>
       </section>
-      <section id="hero">
+      <section id="hero"className="h-screen">
         <Hero />
       </section>
       <Spacer />
