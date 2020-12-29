@@ -14,7 +14,7 @@ const jobs = [
         duration : "September 2016 - September 2018",
         job_title : "Product Owner - Payments and Fraud Systems",
         desc : "Ocado Technology is the development arm of Ocado Group, the worlds largest online only grocer.  Developing proprietary technology to change the way the world shops.  I am responsible for product ",
-        logo : "/ocado.svg"
+        logo : "/Ocado.svg"
     },
     {
         companyName : "Capital One UK",
