@@ -38,9 +38,9 @@ export default function skills() {
     return(
         <div>
         <div className="flex flex-col md:flex-row px-2">
-            {skillsList.map((skill) => {
+            {skillsList.map((skill, index) => {
                 return (              
-                    <div className="mt-4 w-full bg-white dark:bg-gray-700 shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 lg:mx-4">
+                    <div key={index} className="mt-4 w-full bg-white dark:bg-gray-700 shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 lg:mx-4">
                         <div className="flex justify-center">
                         <svg className="h-24 w-24 text-blue-600 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             {skill.SVG}

@@ -54,9 +54,9 @@ const contactDetails = [
 export default function contact () {
     return (
         <div className="px-4 flex flex-col space-y-4 md:flex-row md:space-x-4">
-            {contactDetails.map((contacts) => {
+            {contactDetails.map((contacts, index) => {
                 return (
-                    <div className="mt-4 h-24 w-full bg-white dark:bg-gray-700 rounded-xl shadow-xl">
+                    <div key={index} className="mt-4 h-24 w-full bg-white dark:bg-gray-700 rounded-xl shadow-xl">
                         <div className="mx-auto mt-2 mb-1 h-6 w-6">
                             <svg className="object-center fill-current text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             {contacts.icon}

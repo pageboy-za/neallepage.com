@@ -15,7 +15,7 @@ export default function hero() {
             </span>  
           </p>
         </div>
-        <ButtonLink label="learn more →" href="#about" />
+        <ButtonLink label="learn more →" href="/#about" />
       </div>
       <style jsx>{`
       .txt_shadow {

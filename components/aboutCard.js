@@ -27,7 +27,7 @@ export default function about() {
     return(
         <div className=" bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg">
         {aboutData.map((about, index) =>(
-            <card id={index+1}>
+            <card id={index+1} key={index}>
              <div className="pt-6 flex flex-col md:flex-row">
                  <div className="w-full md:w-1/2 pl-4">
                     <h2 className="md:text-xl text-blue-600 font-semibold border-b-2 border-blue-400">{about.title}</h2>
