@@ -1,0 +1,47 @@
+[oh-my-zsh] Insecure completion-dependent directories detected:
+drwxrwxr-x  3 nealle.page  admin  96 20 May 14:29 /usr/local/share/zsh
+drwxrwxr-x  3 nealle.page  admin  96 20 May 14:33 /usr/local/share/zsh/site-functions
+
+[oh-my-zsh] For safety, we will not load completions from these directories until
+[oh-my-zsh] you fix their permissions and ownership and restart zsh.
+[oh-my-zsh] See the above list for directories with group or other writability.
+
+[oh-my-zsh] To fix your permissions you can do so by disabling
+[oh-my-zsh] the write permission of "group" and "others" and making sure that the
+[oh-my-zsh] owner of these directories is either root or your current user.
+[oh-my-zsh] The following command may help:
+[oh-my-zsh]     compaudit | xargs chmod g-w,o-w
+
+[oh-my-zsh] If the above didn't help or you want to skip the verification of
+[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to
+[oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.
+
+]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=[?1l>]2;ls -G]1;lsREADME.md
+components
+exec
+package.json
+pages
+postcss.config.js
+public
+styles
+tailwind.config.js
+yarn.lock
+]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=[?1l>]2;node]1;node]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=[?1l>]2;node -v]1;node]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=[?1l>]2;nodenv local 16.2.0]1;nodenv]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=[?1l>]2;node -v]1;node]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=[?1l>]2;exec $SHELL -l]1;exec[oh-my-zsh] Insecure completion-dependent directories detected:
+drwxrwxr-x  3 nealle.page  admin  96 20 May 14:29 /usr/local/share/zsh
+drwxrwxr-x  3 nealle.page  admin  96 20 May 14:33 /usr/local/share/zsh/site-functions
+
+[oh-my-zsh] For safety, we will not load completions from these directories until
+[oh-my-zsh] you fix their permissions and ownership and restart zsh.
+[oh-my-zsh] See the above list for directories with group or other writability.
+
+[oh-my-zsh] To fix your permissions you can do so by disabling
+[oh-my-zsh] the write permission of "group" and "others" and making sure that the
+[oh-my-zsh] owner of these directories is either root or your current user.
+[oh-my-zsh] The following command may help:
+[oh-my-zsh]     compaudit | xargs chmod g-w,o-w
+
+[oh-my-zsh] If the above didn't help or you want to skip the verification of
+[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to
+[oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.
+
+]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=[?1l>]2;node -v]1;node]2;nealle.page@C02ZKM3KMD6M:~/neallepage.com]1;..eallepage.com[?1h=
