@@ -38,7 +38,7 @@ export default function Home() {
             <h2 className="text-gray-800 text-xl mb-4">Get a copy of my resume</h2>
           </div>
           <div className="flex justify-center">
-            <ButtonLink  href="/pdf/2020-06-11_Nealle Page CV.pdf" label="download a copy"/>
+            <ButtonLink  href="/pdf/2021-05-22_Nealle Page CV.pdf" label="download a copy"/>
           </div>
         </div>
         </div>
