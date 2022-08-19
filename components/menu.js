@@ -4,7 +4,7 @@ const links = [
     {label :'About', href: '/#about'},
     {label :'Skills', href: '/#skills'},
     {label :'Contact', href: '/#contact'},
-    {label :'Resume', href: '/resume'},
+   // {label :'Resume', href: '/resume'},
   ]
 
   export default function nav() {

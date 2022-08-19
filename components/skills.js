@@ -58,7 +58,7 @@ export default function skills() {
             <h2 className="text-gray-800 text-xl mb-4">Get a copy of my resume</h2>
           </div>
           <div className="flex justify-center">
-            <ButtonLink  href="/pdf/2021-05-22_Nealle Page CV.pdf" label="download a copy"/>
+            <ButtonLink  href="/pdf/2022-08-19_Nealle Page CV.pdf " label="download a copy"/>
           </div>
         </div>
       </div>

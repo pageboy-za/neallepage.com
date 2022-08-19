@@ -1,8 +1,15 @@
 import Image from "next/image";
 const aboutData = [
     {
-     "title" : "Currently changing the way the world shops",
-     "text": "At Ocado we are changing the way the world shops! Starting as an online grocer in 2000 we have grown to a global technology provider. Now developing the world's leading platform purpose built for grocery retail. Our role? To make sure that the Ocado Smart Platform is always way ahead. Delivering the best user experience and the best unit economics.",
+     "title" : "Improving financial inclusion and chaging the way the people of MENA pay",
+     "text": "I've taken the leap and joined Startup world.  Taken the lead of the Payments product at Tarabut Gateway, MENAs Open Data pioneer. I'm leading a team to build out a range of payment products built on top of the Open Banking standards of the region ",
+     "image": "/Manama.jpg",    
+     "altText": "Night time shot of the World Trade Center in Manama Bahrain",
+     "imgLocation": "left"
+    },
+    {
+     "title" : "I helped change the way the world shops",
+     "text": "At Ocado's changing the way the world shops! Starting as an online grocer in 2000 we have grown to a global technology provider. Now developing the world's leading platform purpose built for grocery retail. Our role? To make sure that the Ocado Smart Platform is always way ahead. Delivering the best user experience and the best unit economics.",
      "image": "/Ocado_warehouse_bots.jpg",    
      "altText": "Grocery picking robots on a grid",
      "imgLocation": "left"
