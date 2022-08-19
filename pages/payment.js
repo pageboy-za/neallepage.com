@@ -15,12 +15,11 @@ export default function Pay() {
         })
 
     return (
-    <div>
-    <div className='dark:bg-gray-800'>
+    <div className=' bg-gray-200 dark:bg-gray-800 min-w-full'>
+    <div className=' bg-gray-200 dark:bg-gray-800 min-w-full'>
     <Head>
         <title>Payments Response</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="This is the home page of Nealle Page, a product manager with experience in B2B product development in ecommerce and financial services."/>
     </Head>
     </div>
     <div id="top" className="container w-full m-0 bg-gray-200 dark:bg-gray-800 min-w-ful"   > 
@@ -49,6 +48,11 @@ export default function Pay() {
                         </tbody>
                     </table>
                     </div>
+                    </section>
+                    <section>
+                        <div>
+                            <Spacer />
+                        </div>
                     </section>
                 </div>
             </div>
