@@ -16,7 +16,7 @@ export default function Pay() {
 
     return (
     <div>
-    <div>
+    <div className='dark:bg-gray-800'>
     <Head>
         <title>Payments Response</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

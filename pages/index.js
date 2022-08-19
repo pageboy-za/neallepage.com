@@ -13,7 +13,7 @@ import Sectiontitle from "../components/sectionTitle"
 export default function Home() {
   const heapAnalytics = `window.heap="window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var" r="t.forceSSL||&quot;https:&quot;===document.location.protocol,a=document.createElement(&quot;script&quot;);a.type=&quot;text/javascript&quot;,a.async=!0,a.src=(r?&quot;https:&quot;:&quot;http:&quot;)+&quot;//cdn.heapanalytics.com/js/heap-&quot;+e+&quot;.js&quot;;var" n="document.getElementsByTagName(&quot;script&quot;)[0];n.parentNode.insertBefore(a,n);for(var" o="function(e){return" function(){heap.push([e].concat(array.prototype.slice.call(arguments,0)))}},p="[&quot;addEventProperties&quot;,&quot;addUserProperties&quot;,&quot;clearEventProperties&quot;,&quot;identify&quot;,&quot;removeEventProperty&quot;,&quot;setEventProperties&quot;,&quot;track&quot;,&quot;unsetEventProperty&quot;],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};" heap.load("2198944300"); `;
   return (
-    <div>
+    <div className='dark:bg-gray-800'>
     <Head>
         <title>Nealle Page</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
