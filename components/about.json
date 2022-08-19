@@ -1,11 +1,11 @@
 [
     {
-     "title" : "Improving financial inclusion and chaging the way the people of MENA pay",
-     "text": "I've taken the leap and joined Startup world.  Taken the lead of the Payments product at Tarabut Gateway, the first registered ",
-     "image": "../public/Manama.jpg",    
-     "altText": "Night time shot of the World Trade Center in Manama Bahrain",
-     "imgLocation": "left"
-    },
+        "title" : "Improving financial inclusion and chaging the way the people of MENA pay",
+        "text": "I've taken the leap and joined Startup world.  Taken the lead of the Payments product at Tarabut Gateway, MENAs Open Data pioneer. I'm leading a team to build out a range of payment products built on top of the Open Banking standards of the region ",
+        "image": "/Manama.jpg",    
+        "altText": "Night time shot of the World Trade Center in Manama Bahrain",
+        "imgLocation": "left"
+       },
     {
      "title" : "Currently changing the way the world shops",
      "text": "While at Ocado I have been changing the way the world shops as a part of their Solutions business developing the worlds leading platform specfically for grocery retail. I was a key part of the product management team being the voice of the company's partners and the voice of the market ensuring that the platform was always ahead delivering the best user experience and the best economics.",
