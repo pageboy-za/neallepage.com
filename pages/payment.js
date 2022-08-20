@@ -16,18 +16,18 @@ export default function Pay() {
 
     return (
     <div className=' bg-gray-200 dark:bg-gray-800 min-w-full'>
-    <div className=' bg-gray-200 dark:bg-gray-800 min-w-full'>
+    <div className=' container bg-gray-200 dark:bg-gray-800 min-w-full'>
     <Head>
         <title>Payments Response</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     </div>
-    <div id="top" className="container w-full m-0 bg-gray-200 dark:bg-gray-800 min-w-ful"   > 
+    <div id="top" className="container w-full m-0 bg-gray-200 dark:bg-gray-800 min-w-ful items-center"   > 
         <section id="bar">
             <div className="min-w-full min-h-screen">
                 <Spacer />
-                <div className='p-6'></div>
-                <div className='p-6 max-w-5xl mx-12 bg-white  dark:bg-gray-700 dark:text-gray-300 rounded-xl shadow-lg items-center space-x-4'>
+                <div className='p-6 items-center'></div>
+                <div className='p-6 w-full mx-12 bg-white  dark:bg-gray-700 dark:text-gray-300 rounded-xl shadow-lg items-center space-x-4'>
                     <section id='cardHeader'> 
                         <div className='text-xl text-center underline'>Payment Details</div>
                     </section>
