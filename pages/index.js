@@ -18,6 +18,7 @@ export default function Home() {
         <title>Nealle Page</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="This is the home page of Nealle Page, a product manager with experience in B2B product development in ecommerce and financial services."/>
+        <script data-no-cookie async src="https://cdn.splitbee.io/sb.js"></script>
       </Head>
     <div id="home" className="container w-full m-0 bg-gray-200 dark:bg-gray-800 min-w-full">
       <section id="navigation">
