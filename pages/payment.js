@@ -29,7 +29,7 @@ export default function Pay() {
                 <div className='p-6 items-center'></div>
                 <div className='p-6 w-full mx-12 bg-white  dark:bg-gray-700 dark:text-gray-300 rounded-xl shadow-lg items-center space-x-4'>
                     <section id='cardHeader'> 
-                        <div className='text-xl text-center underline'>Payment Details</div>
+                        <div className='text-xl text-center underline'>TG API response details</div>
                     </section>
                     <section id='cardBody'>
                     <div className='items-center'>
