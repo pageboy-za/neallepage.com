@@ -18,7 +18,7 @@ export default function Pay() {
     <div className=' bg-gray-200 dark:bg-gray-800 min-w-full'>
     <div className=' container bg-gray-200 dark:bg-gray-800 min-w-full'>
     <Head>
-        <title>Payments Response</title>
+        <title>TG API Response</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     </div>
