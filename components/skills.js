@@ -28,7 +28,7 @@ const skillsList = [
     "SVG" : card()
     },
     {"skill" : "E-commerce",
-    "description" : "MMy time with Ocado group has taught me about more than the basics of the technology behind e-commerce, I've been learning the business of it too. All in the context of global partnerships with the world's leading grocers, like Coles (Australia) and Kroger (USA). ",
+    "description" : "My time with Ocado group has taught me about more than the basics of the technology behind e-commerce, I've been learning the business of it too. All in the context of global partnerships with the world's leading grocers, like Coles (Australia) and Kroger (USA). ",
     "SVG" : computer()
     }
 ]
@@ -62,7 +62,6 @@ export default function skills() {
           </div>
         </div>
       </div>
-
-        </div>
+    </div>
     )
 }

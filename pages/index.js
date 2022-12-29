@@ -1,12 +1,13 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Script from 'next/script';
 import Nav from '../components/nav';
 import Spacer from '../components/spacer';
 import Hero from '../components/hero';
-import About from '../components/aboutCard';
 import Skills from "../components/skills";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
-import Sectiontitle from "../components/sectionTitle"
+import Sectiontitle from "../components/sectionTitle";
+import About from '../components/about';
 
 
 
@@ -18,7 +19,7 @@ export default function Home() {
         <title>Nealle Page</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="This is the home page of Nealle Page, a product manager with experience in B2B product development in ecommerce and financial services."/>
-        <script data-no-cookie async src="https://cdn.splitbee.io/sb.js"></script>
+        <Script data-no-cookie async src="https://cdn.splitbee.io/sb.js" />
       </Head>
     <div id="home" className="container w-full m-0 bg-gray-200 dark:bg-gray-800 min-w-full">
       <section id="navigation">
