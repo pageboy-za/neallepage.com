@@ -91,6 +91,11 @@
   resolved "https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.3.1.tgz"
   integrity sha512-HyZ+3Eay8SGaPq7kcFoANZLr4EjeXQ19yjjb9fp6B0PHHpvZoe00jdsnpnooMEbx9J5rQ93nxPUG3MQmXVxGMQ==
 
+"@vercel/analytics@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-0.1.6.tgz#a1ce184168d8f5ec02e35ec954d84ee68ea01f4b"
+  integrity sha512-zNd5pj3iDvq8IMBQHa1YRcIteiw6ZiPB8AsONHd8ieFXlNpLqhXfIYnf4WvTfZ7S1NSJ++mIM14aJnNac/VMXQ==
+
 acorn-node@^1.6.1:
   version "1.8.2"
   resolved "https://registry.npmjs.org/acorn-node/-/acorn-node-1.8.2.tgz"
