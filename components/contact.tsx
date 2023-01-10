@@ -65,7 +65,7 @@ export default function Contact () {
                         <div className="bg-gradient-to-r from-copper-600 to-bg-gold-600 mb-2 shadow-lg">
                             <h2 className="font-semibold text-md text-center text-gray-900">{contacts.Text}</h2>
                         </div>
-                        <div className="text-center dark:text-gray-200">
+                        <div className="text-center dark:text-copper-800">
                             <a href={contacts.link} >{contacts.contact}</a>
                         </div>
                     </div>
