@@ -6,6 +6,8 @@ import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Script from 'next/script'
+import Post from '../interfaces/post'
+
 
 import SectionSeparator from '../components/structural/section-separator'
 
