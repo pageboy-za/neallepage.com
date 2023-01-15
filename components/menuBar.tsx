@@ -5,7 +5,7 @@ import Menu from './menu';
 const MenuBar = () => {
   return (
     <div>
-    <div className="flex fixed justify-end w-screen min-w-screen bg-darkBG h-14 pr-10">
+    <div className="flex fixed justify-end w-screen min-w-screen bg-darkBG h-14 md:pr-5">
       <Menu showHome={false}/>
     </div>
     </div>

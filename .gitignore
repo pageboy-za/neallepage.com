@@ -38,3 +38,7 @@ test-timings.json
 # Vercel
 .vercel
 .now
+
+#ulysses files
+.Ulysses-Settings.plist
+.Ulysses-Settings.plist

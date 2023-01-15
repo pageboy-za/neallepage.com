@@ -7,6 +7,7 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import Script from 'next/script'
 import Post from '../interfaces/post'
+import MenuBar from '../components/menuBar'
 
 
 import SectionSeparator from '../components/structural/section-separator'
@@ -26,6 +27,7 @@ export default function Index({ allPosts }: Props) {
           <title>Nealle Page Blog</title>
           <Script data-no-cookie async src="https://cdn.splitbee.io/sb.js" />
         </Head>
+        <MenuBar />
         <Container>
           <BlogIntro />
           <SectionSeparator />
