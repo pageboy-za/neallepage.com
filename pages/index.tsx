@@ -14,9 +14,9 @@ export default function Index(): JSX.Element {
     <>
       <Layout>
         <Head>
-          <title>Nealle Page – Product Manager</title>
+          <title>Nealle Page | Experienced Product Manager</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <Script data-no-cookie async src="https://cdn.splitbee.io/sb.js" />
+          <script data-no-cookie async src="https://cdn.splitbee.io/sb.js"></script>
         </Head>
         <MenuBar />
         
