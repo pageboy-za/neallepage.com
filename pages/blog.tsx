@@ -25,7 +25,7 @@ export default function Index({ allPosts }: Props) {
       <Layout>
         <Head>
           <title>Nealle Page Blog</title>
-          <Script data-no-cookie async src="https://cdn.splitbee.io/sb.js" />
+          <script async data-api="/_hive" src="/bee.js"></script>
         </Head>
         <MenuBar />
         <Container>
