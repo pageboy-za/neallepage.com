@@ -30,6 +30,7 @@ const contactDetails = [
         "icon" : phone()
     }, */
     {
+        "service" : "Email",
         "contact" : "nealle.page@gmail.com",
         "link" : "mailto:nealle.page@gmail.com",
         "Text" : "Email Me",
@@ -37,12 +38,14 @@ const contactDetails = [
 
     },
     {
+        "service" : "LinkedIn",
         "contact" : "LinkedIn",
         "link" : "https://www.linkedin.com/in/neallepage/",
         "Text" : "Connect on LinkedIn",
         "icon" : linkedIn()
     },
     {
+        "service" : "Twitter",
         "contact" : "@pageboy_za",
         "link" : "https://twitter.com/pageboy_za",
         "Text" : "Tweet @ me",
@@ -66,7 +69,7 @@ export default function Contact () {
                             <h2 className="font-semibold text-md text-center text-gray-900">{contacts.Text}</h2>
                         </div>
                         <div className="text-center dark:text-copper-800">
-                            <a href={contacts.link} >{contacts.contact}</a>
+                            <a data-splitbee-event="External Link" data-splitbee-event-destination={contacts.service} href={contacts.link} >{contacts.contact}</a>
                         </div>
                     </div>
                 )

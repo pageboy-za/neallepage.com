@@ -35,6 +35,7 @@ module.exports = {
         'darkBG': '#222222',
         'success': '#0070f3',
         'cyan': '#79FFE1',
+
       },
       spacing: {
         28: '7rem',
