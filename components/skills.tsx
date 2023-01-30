@@ -23,7 +23,7 @@ export default function Skills () {
                 </SkillCard>
             </div>
             <div>
-                <Button data-splitbee-event="Download CV" href="/pdf/2023-01-09_Nealle Page CV.pdf ">Grab a copy  of my CV now</Button>
+                <Button event="Download CV" href="/pdf/2023-01-09_Nealle Page CV.pdf ">Grab a copy  of my CV now</Button>
             </div>
         </section>
         </>
