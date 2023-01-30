@@ -5,7 +5,6 @@ import BlogIntro from '../components/blogIntro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
-import Script from 'next/script'
 import Post from '../interfaces/post'
 import MenuBar from '../components/menuBar'
 

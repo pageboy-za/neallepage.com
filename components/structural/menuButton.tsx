@@ -7,8 +7,7 @@ type Props = {
 }
 
 const Button = ({href, children} ) => (
-            <div className='bg-gold-500 hover:bg-gradient-to-br from-copper-600 to-bg-gold-500 rounded-md text-black flex justify-center items-center hover:font-bold shadow-sm hover:shadow-lg 
-            h-8 w-20 mx-2'>
+            <div className='bg-black rounded-md text-white flex justify-center items-center hover:font-bold h-8 w-20 mx-2'>
                 <Link href={href}>                
                     {children}
                 </Link>

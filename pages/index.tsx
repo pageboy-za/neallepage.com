@@ -7,7 +7,7 @@ import SectionSeparator from '../components/structural/section-separator'
 import Skills from '../components/skills'
 import Contact from '../components/contact'
 import MenuBar from '../components/menuBar'
-import Script from 'next/script'
+
 
 export default function Index(): JSX.Element {
   return (
