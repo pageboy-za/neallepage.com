@@ -1,4 +1,7 @@
 module.exports = {
+    compiler: {
+      styledComponents: true,
+    },
     async rewrites() {
       return [
           {

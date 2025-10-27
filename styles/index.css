@@ -1,3 +1,56 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Copper color palette */
+  --color-copper-50: #FAF6F5;
+  --color-copper-100: #F3EAE7;
+  --color-copper-200: #E7D5CF;
+  --color-copper-300: #D8BAB1;
+  --color-copper-400: #C5998C;
+  --color-copper-500: #AE715E;
+  --color-copper-600: #A06350;
+  --color-copper-700: #8F5848;
+  --color-copper-800: #77493C;
+  --color-copper-900: #4E3027;
+
+  /* Gold color palette */
+  --color-gold-50: #FAF7F4;
+  --color-gold-100: #F5F0EA;
+  --color-gold-200: #ECE0D5;
+  --color-gold-300: #DFCBB9;
+  --color-gold-400: #D1B499;
+  --color-gold-500: #C29C78;
+  --color-gold-600: #B88B61;
+  --color-gold-700: #A5764B;
+  --color-gold-800: #8D653F;
+  --color-gold-900: #5F442B;
+
+  /* Custom accent colors */
+  --color-accent-1: #FAFAFA;
+  --color-accent-2: #EAEAEA;
+  --color-accent-beige: #FFFEFD;
+  --color-accent-7: #333;
+  --color-darkBG: #222222;
+  --color-success: #0070f3;
+  --color-cyan: #79FFE1;
+
+  /* Custom spacing */
+  --spacing-28: 7rem;
+
+  /* Custom letter spacing */
+  --letter-spacing-tighter: -0.04em;
+
+  /* Custom line height */
+  --line-height-tight: 1.2;
+
+  /* Custom font sizes */
+  --font-size-5xl: 2.5rem;
+  --font-size-6xl: 2.75rem;
+  --font-size-7xl: 4.5rem;
+  --font-size-8xl: 6.25rem;
+
+  /* Custom box shadows */
+  --shadow-sm: 0 5px 10px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.12);
+}

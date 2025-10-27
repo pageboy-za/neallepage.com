@@ -49,3 +49,7 @@ test-timings.json
 #ulysses files
 .Ulysses-Settings.plist
 .Ulysses-Settings.plist
+
+# Sanity
+.sanity
+dist
