@@ -18,6 +18,10 @@ test/node_modules
 !.yarn/sdks
 !.yarn/versions
 
+# environment variables
+.env
+.env*.local
+
 # logs & pids
 *.log
 pids
