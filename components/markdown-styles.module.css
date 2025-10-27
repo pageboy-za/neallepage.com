@@ -1,22 +1,38 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.625;
 }
 
 .markdown p,
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-6;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  line-height: 1.375;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.375;
 }
 
 .markdown a {
-  @apply font-bold hover:underline text-copper-700;
+  font-weight: 700;
+  color: var(--color-copper-700);
+}
+
+.markdown a:hover {
+  text-decoration: underline;
 }

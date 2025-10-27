@@ -5,7 +5,7 @@ import Head from 'next/head'
 import SectionSeparator from '../components/structural/section-separator'
 import {useRouter} from 'next/router'
 
-export default function Index(): JSX.Element {
+export default function Index() {
     const router = useRouter()
     const params = router.query
     let result = Object.entries(params)

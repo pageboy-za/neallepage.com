@@ -9,7 +9,7 @@ import Contact from '../components/contact'
 import MenuBar from '../components/menuBar'
 
 
-export default function Index(): JSX.Element {
+export default function Index() {
   return (
     <>
       <Layout>
