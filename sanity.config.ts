@@ -15,4 +15,10 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
+  deployment: {
+    appId: 'auc2e44cxypfd4rwqeuoll9w',
+  },
 })
+
+  
+  
